@@ -1,7 +1,15 @@
 Sub.pm
+COPYING
 Changes
 MANIFEST
 Makefile.PL
-test.pl
 README
-COPYING
+lib/Symbol/Approx/Sub/Text/Soundex.pm
+lib/Symbol/Approx/Sub/Text/Metaphone.pm
+lib/Symbol/Approx/Sub/String/Equal.pm
+lib/Symbol/Approx/Sub/Random.pm
+t/anon.t
+t/ref.t
+t/basic.t
+t/package.t
+t/packages.t
