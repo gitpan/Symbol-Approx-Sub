@@ -1,0 +1,35 @@
+Revision history for Perl extension Sub::Approx.
+
+0.01  Mon Jul 24 10:29:47 2000
+	- original version; created by h2xs 1.19
+
+0.02  Thu Jul 27 11:13:37 2000
+        - added README and COPYING files to tarball
+
+0.03  Thu Jul 27 11:19:44 2000
+        - Corrected typos (more haste less whatsit!)
+
+0.04  Fri Jul 28 09:32:28 2000
+        - Corrected module description.
+
+0.05  Fri Aug 18 11:09:51 2000
+        - Added user configurable features (thanks Leon)
+
+1.01  Thu Aug 24 18:52:48 2000
+        - Various tidying
+
+1.02  Mon Oct 09 19:50:18 2000
+        - Incorporated Robin's patches:
+          * Don't assume we're being called from main
+          * Allow different packages to use different Approx semantics
+          * New tests
+
+1.03  Mon Oct 30 17:20:07 2000
+        - Removed all glob-walking code to GlobWalker.pm
+
+1.50  Thu Nov 09 21:29:27 2000
+        - Renamed to Approx::Sub
+
+1.60  Fri Nov 17 14:33:14 2000
+        - Changed name (again!)
+        -  Use Devel::Symdump instead of GlobWalker
