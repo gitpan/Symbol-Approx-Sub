@@ -1,7 +1,7 @@
 #
 # Symbol::Approx::Sub::Text::Soundex
 #
-# $Id: Soundex.pm,v 1.1 2001/07/15 20:44:24 dave Exp $
+# $Id: Soundex.pm,v 1.1 2002/03/29 17:55:40 dave Exp $
 #
 # Transformer plugin for Symbol::Approx::Sub;
 #
@@ -11,6 +11,9 @@
 # modify it under the same terms as Perl itself.
 #
 # $Log: Soundex.pm,v $
+# Revision 1.1  2002/03/29 17:55:40  dave
+# Support modules
+#
 # Revision 1.1  2001/07/15 20:44:24  dave
 # Initial revision
 #

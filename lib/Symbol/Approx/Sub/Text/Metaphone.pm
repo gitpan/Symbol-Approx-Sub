@@ -1,7 +1,7 @@
 #
 # Symbol::Approx::Sub::Text::Metaphone
 #
-# $Id: Metaphone.pm,v 1.1 2001/07/15 20:45:25 dave Exp $
+# $Id: Metaphone.pm,v 1.1 2002/03/29 17:55:40 dave Exp $
 #
 # Transformer plugin for Symbol::Approx::Sub;
 #
@@ -11,6 +11,9 @@
 # modify it under the same terms as Perl itself.
 #
 # $Log: Metaphone.pm,v $
+# Revision 1.1  2002/03/29 17:55:40  dave
+# Support modules
+#
 # Revision 1.1  2001/07/15 20:45:25  dave
 # Initial revision
 #

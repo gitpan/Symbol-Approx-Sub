@@ -1,35 +1,63 @@
-Revision history for Perl extension Sub::Approx.
+2004-10-23 11:54  dave
 
-0.01  Mon Jul 24 10:29:47 2000
-	- original version; created by h2xs 1.19
+	* COPYING (1.1): Licence file
 
-0.02  Thu Jul 27 11:13:37 2000
-        - added README and COPYING files to tarball
+2004-05-12 23:55  dave
 
-0.03  Thu Jul 27 11:19:44 2000
-        - Corrected typos (more haste less whatsit!)
+	* MANIFEST (1.1), Makefile.PL (1.1): Added MANIFEST and Makefile.PL
+	  to cvs
 
-0.04  Fri Jul 28 09:32:28 2000
-        - Corrected module description.
+2002-03-29 17:55  dave
 
-0.05  Fri Aug 18 11:09:51 2000
-        - Added user configurable features (thanks Leon)
+	* lib/Symbol/Approx/Sub/: Random.pm (1.1), String/Approx.pm (1.1),
+	  String/Equal.pm (1.1), Text/Metaphone.pm (1.1), Text/Soundex.pm
+	  (1.1): Support modules
 
-1.01  Thu Aug 24 18:52:48 2000
-        - Various tidying
+2002-03-29 17:53  dave
 
-1.02  Mon Oct 09 19:50:18 2000
-        - Incorporated Robin's patches:
-          * Don't assume we're being called from main
-          * Allow different packages to use different Approx semantics
-          * New tests
+	* README.xml (2.1): README file
 
-1.03  Mon Oct 30 17:20:07 2000
-        - Removed all glob-walking code to GlobWalker.pm
+2002-03-29 17:52  dave
 
-1.50  Thu Nov 09 21:29:27 2000
-        - Renamed to Approx::Sub
+	* t/: anon.t (1.1), basic.t (1.1), package.t (1.1), packages.t
+	  (1.1), ref.t (1.1): Test files
 
-1.60  Fri Nov 17 14:33:14 2000
-        - Changed name (again!)
-        -  Use Devel::Symdump instead of GlobWalker
+2001-07-24 15:46  dave
+
+	* Sub.pm (2.0): New! Improved! Now with plug-in Architecture!
+
+2001-07-15 21:47  dave
+
+	* Sub.pm (1.62): Version 2 - RC2
+
+2001-06-24 21:04  dave
+
+	* Sub.pm (1.61): Version 2 - Release Candidate 1
+
+2000-11-17 14:33  dave
+
+	* Sub.pm (1.60): Changed name (again!) Use Devel::Symdump instead
+	  of GlobWalker
+
+2000-11-09 21:29  dave
+
+	* Sub.pm (1.50): Renamed to Approx::Sub
+
+2000-10-30 17:20  dave
+
+	* Sub.pm (1.3): Removed all glob-walking code to GlobWalker.pm.
+
+2000-10-09 19:52  dave
+
+	* Sub.pm (1.2): Incorporated Robin's patches: * Don't assume we're
+	  being called from main * Allow different packages to use
+	  different Approx semantics * New tests
+
+2000-08-24 20:50  dave
+
+	* Sub.pm (1.1): Various tidying.
+
+2000-08-24 20:46  dave
+
+	* Sub.pm (1.0): Initial revision
+

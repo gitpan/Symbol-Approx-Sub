@@ -4,5 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'Symbol::Approx::Sub',
     'VERSION_FROM' => 'Sub.pm', # finds $VERSION
-    'PREREQ_PM' => { Devel::Symdump => 0 },
+    'PREREQ_PM' => { Devel::Symdump => 0,
+                     Test::More => 0,
+                     Test::Pod  => 0 },
 );
