@@ -1,4 +1,4 @@
-# $Id: Sub.pm,v 2.1 2004/10/30 20:09:35 dave Exp $
+# $Id: Sub.pm,v 2.2 2005/10/22 17:56:13 dave Exp $
 
 =head1 NAME
 
@@ -152,7 +152,7 @@ use vars qw($VERSION @ISA $AUTOLOAD);
 
 use Devel::Symdump;
 
-$VERSION = sprintf "%d.%02d", '$Revision: 2.1 $ ' =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%02d", '$Revision: 2.2 $ ' =~ /(\d+)\.(\d+)/;
 
 use Carp;
 
@@ -403,9 +403,12 @@ With lots of help from Leon Brocard <leon@astray.com>
 perl(1).
 
 =cut
-
+ 
 #
 # $Log: Sub.pm,v $
+# Revision 2.2  2005/10/22 17:56:13  dave
+# Added test files
+#
 # Revision 2.1  2004/10/30 20:09:35  dave
 # Improvements to test coverage
 #
