@@ -1,7 +1,7 @@
 #
 # Symbol::Approx::Sub::String::Approx
 #
-# $Id: Approx.pm,v 1.2 2005/10/22 17:56:22 dave Exp $
+# $Id: Approx.pm 29 2008-03-03 19:17:19Z dave $
 #
 # Matcher plugin for Symbol::Approx::Sub;
 #
@@ -10,7 +10,7 @@
 # This module is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 #
-# $Log: Approx.pm,v $
+# $Log$
 # Revision 1.2  2005/10/22 17:56:22  dave
 # Added docs.
 #
@@ -23,10 +23,13 @@
 #
 package Symbol::Approx::Sub::String::Approx;
 
+require 5.006_000;
+use warnings;
 use strict;
-use vars qw($VERSION @ISA $AUTOLOAD);
 
-$VERSION = sprintf "%d.%02d", '$Revision: 1.2 $ ' =~ /(\d+)\.(\d+)/;
+our ($VERSION, @ISA, $AUTOLOAD);
+
+$VERSION = sprintf "%d", '$Revision: 29 $ ' =~ /(\d+)/;
 
 use Carp;
 use String::Approx 'amatch';

@@ -1,63 +1,113 @@
-2004-10-23 11:54  dave
+2008-03-03  dave
 
-	* COPYING (1.1): Licence file
+	* [r33] t/anon.t, t/arr_str_xform.t, t/basic.t, t/code_xform.t,
+	  t/hash_xform.t, t/package.t, t/packages.t, t/ref.t,
+	  t/str_choose.t, t/str_xform.t: Use Test::More in preference to
+	  Test::Simple in all cases.
+	  Remove nasty prehistoric testing scaffolding.
+	* [r32] lib/Symbol/Approx/Sub.pm: Add LICENSE to docs.
+	  Remove old cvs logs.
+	* [r31] Build.PL, Makefile.PL: Switch from Makefile.PL to Build.PL
+	* [r30] MANIFEST, Sub.pm, lib/Symbol/Approx/Sub.pm: Moved Sub.pm
+	  into lib/
+	* [r29] Sub.pm, lib/Symbol/Approx/Sub/Random.pm,
+	  lib/Symbol/Approx/Sub/String/Approx.pm,
+	  lib/Symbol/Approx/Sub/String/Equal.pm,
+	  lib/Symbol/Approx/Sub/Text/Metaphone.pm,
+	  lib/Symbol/Approx/Sub/Text/Soundex.pm: Require 5.6.0 so we can
+	  use warnings and our.
+	* [r28] Makefile.PL: Moved version to Makefile.PL
+	* [r27] t/arr_xform.t: Even better fix to test
+	* [r26] Sub.pm, lib/Symbol/Approx/Sub/Random.pm,
+	  lib/Symbol/Approx/Sub/String/Approx.pm,
+	  lib/Symbol/Approx/Sub/String/Equal.pm,
+	  lib/Symbol/Approx/Sub/Text/Metaphone.pm,
+	  lib/Symbol/Approx/Sub/Text/Soundex.pm: Fixed to use svn revision
+	  numbers
 
-2004-05-12 23:55  dave
+2005-10-22  dave
 
-	* MANIFEST (1.1), Makefile.PL (1.1): Added MANIFEST and Makefile.PL
-	  to cvs
+	* [r24] t/arr_xform.t: Fixed broken test.
+	* [r23] lib/Symbol/Approx/Sub/Random.pm,
+	  lib/Symbol/Approx/Sub/String/Approx.pm,
+	  lib/Symbol/Approx/Sub/String/Equal.pm,
+	  lib/Symbol/Approx/Sub/Text/Metaphone.pm,
+	  lib/Symbol/Approx/Sub/Text/Soundex.pm: Added docs.
+	* [r22] Sub.pm: Added test files
+	* [r21] t/code_xform.t: fixed broken test.
 
-2002-03-29 17:55  dave
+2005-10-01  dave
 
-	* lib/Symbol/Approx/Sub/: Random.pm (1.1), String/Approx.pm (1.1),
-	  String/Equal.pm (1.1), Text/Metaphone.pm (1.1), Text/Soundex.pm
-	  (1.1): Support modules
+	* [r20] MANIFEST, t/pod.t, t/pod_coverage.t: Added pod tests
 
-2002-03-29 17:53  dave
+2004-10-30  dave
 
-	* README.xml (2.1): README file
+	* [r19] MANIFEST: Corrected MANIFEST
+	* [r18] MANIFEST: Added new test files
+	* [r17] t/arr_str_xform.t, t/arr_xform.t, t/code_xform.t,
+	  t/hash_xform.t, t/str_choose.t, t/str_xform.t: Added new tests
+	* [r16] Sub.pm: Improvements to test coverage
 
-2002-03-29 17:52  dave
+2004-10-23  dave
 
-	* t/: anon.t (1.1), basic.t (1.1), package.t (1.1), packages.t
-	  (1.1), ref.t (1.1): Test files
+	* [r15] COPYING: Licence file
 
-2001-07-24 15:46  dave
+2004-05-12  dave
 
-	* Sub.pm (2.0): New! Improved! Now with plug-in Architecture!
+	* [r14] MANIFEST, Makefile.PL: Added MANIFEST and Makefile.PL to
+	  cvs
 
-2001-07-15 21:47  dave
+2002-03-29  dave
 
-	* Sub.pm (1.62): Version 2 - RC2
+	* [r13] lib, lib/Symbol, lib/Symbol/Approx, lib/Symbol/Approx/Sub,
+	  lib/Symbol/Approx/Sub/Random.pm, lib/Symbol/Approx/Sub/String,
+	  lib/Symbol/Approx/Sub/String/Approx.pm,
+	  lib/Symbol/Approx/Sub/String/Equal.pm,
+	  lib/Symbol/Approx/Sub/Text,
+	  lib/Symbol/Approx/Sub/Text/Metaphone.pm,
+	  lib/Symbol/Approx/Sub/Text/Soundex.pm: Support modules
+	* [r12] README.xml: README file
+	* [r11] t, t/anon.t, t/basic.t, t/package.t, t/packages.t, t/ref.t:
+	  Test files
 
-2001-06-24 21:04  dave
+2001-07-24  dave
 
-	* Sub.pm (1.61): Version 2 - Release Candidate 1
+	* [r10] Sub.pm: New! Improved! Now with plug-in Architecture!
 
-2000-11-17 14:33  dave
+2001-07-15  dave
 
-	* Sub.pm (1.60): Changed name (again!) Use Devel::Symdump instead
-	  of GlobWalker
+	* [r9] Sub.pm: Version 2 - RC2
 
-2000-11-09 21:29  dave
+2001-06-24  dave
 
-	* Sub.pm (1.50): Renamed to Approx::Sub
+	* [r8] Sub.pm: Version 2 - Release Candidate 1
 
-2000-10-30 17:20  dave
+2000-11-17  dave
 
-	* Sub.pm (1.3): Removed all glob-walking code to GlobWalker.pm.
+	* [r7] Sub.pm: Changed name (again!)
+	  Use Devel::Symdump instead of GlobWalker
 
-2000-10-09 19:52  dave
+2000-11-09  dave
 
-	* Sub.pm (1.2): Incorporated Robin's patches: * Don't assume we're
-	  being called from main * Allow different packages to use
-	  different Approx semantics * New tests
+	* [r6] Sub.pm: Renamed to Approx::Sub
 
-2000-08-24 20:50  dave
+2000-10-30  dave
 
-	* Sub.pm (1.1): Various tidying.
+	* [r5] Sub.pm: Removed all glob-walking code to GlobWalker.pm.
 
-2000-08-24 20:46  dave
+2000-10-09  dave
 
-	* Sub.pm (1.0): Initial revision
+	* [r4] Sub.pm: Incorporated Robin's patches:
+	  * Don't assume we're being called from main
+	  * Allow different packages to use different Approx semantics
+	  * New tests
+
+2000-08-24  dave
+
+	* [r3] Sub.pm: Various tidying.
+	* [r2] Sub.pm: Initial revision
+
+2000-08-24  
+
+	* [r1] .: New repository initialized by cvs2svn.
 
