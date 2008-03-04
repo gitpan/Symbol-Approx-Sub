@@ -1,3 +1,8 @@
+2008-03-04  dave
+
+	* [r36] Build.PL: Change version number for release 2.04
+	* [r35] MANIFEST: Added Build.PL to MANIFEST
+
 2008-03-03  dave
 
 	* [r33] t/anon.t, t/arr_str_xform.t, t/basic.t, t/code_xform.t,

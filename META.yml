@@ -1,6 +1,6 @@
 ---
 name: Symbol-Approx-Sub
-version: 2.03
+version: 2.04
 author:
   - 'Dave Cross <dave@dave.org.uk>'
   - 'With lots of help from Leon Brocard <leon@astray.com>'
@@ -10,12 +10,8 @@ resources:
   license: http://dev.perl.org/licenses/
 requires:
   Devel::Symdump: 0
-build_requires:
   Test::More: 0
-recommends:
-  String::Approx: 0
-  Text::Metaphone: 0
-  Text::Soundex: 0
+  Test::Pod: 0
 provides:
   Symbol::Approx::Sub:
     file: lib/Symbol/Approx/Sub.pm
