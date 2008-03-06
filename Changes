@@ -1,9 +1,3 @@
-2008-03-06  dave
-
-	* [r39] t/arr_xform.t: Missed one use of Test::Simple.
-	* [r38] Build.PL: Fixed 'create_makefile_pl' line in Build.PL.
-	  Incremented version number.
-
 2008-03-04  dave
 
 	* [r36] Build.PL: Change version number for release 2.04
