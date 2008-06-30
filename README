@@ -43,7 +43,7 @@ HOW DO I INSTALL IT?
 
 PREREQUISITES
 
-  As of version 1.03, Symbol::Approx::Sub uses Devel::Symdump to do  all of
+  As of version 1.03, Symbol::Approx::Sub uses Devel::Symdump to do all of
   the clever glob-walking stuff, so you'll need to get that from CPAN and
   install it before installing Symbol::Approx::Sub.
 

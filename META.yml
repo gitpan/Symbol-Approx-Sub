@@ -1,6 +1,6 @@
 ---
 name: Symbol-Approx-Sub
-version: 2.06
+version: 2.07
 author:
   - 'Dave Cross <dave@dave.org.uk>'
   - 'With lots of help from Leon Brocard <leon@astray.com>'
@@ -20,7 +20,7 @@ recommends:
 provides:
   Symbol::Approx::Sub:
     file: lib/Symbol/Approx/Sub.pm
-    version: 32
+    version: 42
   Symbol::Approx::Sub::Random:
     file: lib/Symbol/Approx/Sub/Random.pm
     version: 29
@@ -36,7 +36,7 @@ provides:
   Symbol::Approx::Sub::Text::Soundex:
     file: lib/Symbol/Approx/Sub/Text/Soundex.pm
     version: 29
-generated_by: Module::Build version 0.2808
+generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
